@@ -1,0 +1,83 @@
+body {
+    background-image: url(../img/marbre-vert.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background {
+    background: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 50px 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 60px;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background: #52796F;
+    color: #2A2315;
+}
+
+/* ARTICLE */
+
+#articles .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ryan {
+    max-height: 325px;
+}
+
+.line {
+    width: 80%;
+    margin: 170px auto;
+    height: 1px;
+    background: black;
+}
+
+/* RECETTES */
+
+.card {
+    width: 80%;
+    max-height: 600px;
+    margin-bottom: 40px;
+}
+
+.card h5 {
+    margin-bottom: 50px;
+}
+
+.card ul li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.card ul li span {
+    font-weight: bold;
+}
+
+
