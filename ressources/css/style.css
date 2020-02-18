@@ -193,14 +193,14 @@ footer small {
 }
 
 .dash i:hover {
-    animation: rotate 0.5s linear;
+    animation: rotate 0.5s linear alternate forwards;
 }
 
 @keyframes rotate {
     from{
         transform: rotateZ(0deg);
     } to {
-        transform: rotateZ(360deg);
+        transform: rotateZ(180deg);
     }
 }
 
@@ -225,23 +225,20 @@ footer small {
 
 @keyframes pulse {
     0% {
-        padding: 0px;
-        border: 3px solid rgba(78, 78, 78, 0);
+        box-shadow: 0px 0px 0px 0px rgba(78, 78, 78, 0);
     }
     25% {
-        padding: 1px;
-        border: 3px solid rgba(78, 78, 78, 0.2);
+        box-shadow: 0px 0px 0px 1px rgba(78, 78, 78, 0.2);
     }
     50% {
-        padding: 2px;
-        border: 3px solid rgba(78, 78, 78, 0.5);
+        box-shadow: 0px 0px 0px 2px rgba(78, 78, 78, 0.5);
     }
     75% {
-        padding: 3px;
-        border: 3px solid rgba(78, 78, 78, 0.7);
+        box-shadow: 0px 0px 0px 3px rgba(78, 78, 78, 0.7);
     }
     100% {
-        padding: 4px;
-        border: 3px solid rgba(78, 78, 78, 1);
+        box-shadow: 0px 0px 0px 4px rgba(78, 78, 78, 1);
     }
 }
+
+
