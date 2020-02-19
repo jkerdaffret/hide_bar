@@ -181,6 +181,25 @@ footer small {
     font-size: 14px;
 }
 
+/* BARMEN */
+
+.card-group .card img {
+    height: 50%;
+    object-fit: fill;
+}
+
+/* PRODUCT */
+
+.produits .card {
+    width: 400px;
+    height: 500px;
+}
+
+.produits .card img {
+    height: 50%;
+    width: 100%;
+}
+
 /* ADMIN */
 .marbre {
     background-image: url(../img/marbre.jpg);
@@ -188,20 +207,14 @@ footer small {
     background-size: cover;
 }
 
-.dash i {
+.dash ul i {
     font-size: 30px; 
+    transform: rotate(0deg);
+	transition: transform 0.5s ease-in-out;
 }
 
-.dash i:hover {
-    animation: rotate 0.5s linear alternate forwards;
-}
-
-@keyframes rotate {
-    from{
-        transform: rotateZ(0deg);
-    } to {
-        transform: rotateZ(180deg);
-    }
+.dash ul i:hover {
+    transform: rotate(180deg);
 }
 
 #actions .card {
@@ -242,3 +255,28 @@ footer small {
 }
 
 
+/* HIDDEN */
+
+.hidden {
+    background-image: url(../img/marbre-vert.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hidden .background {
+    background: #272727;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.hidden .line {
+    background: whitesmoke;
+}
+
+.articleh img {
+    width: 100%;
+    height: 250px;
+}
