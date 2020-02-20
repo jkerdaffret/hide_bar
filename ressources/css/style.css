@@ -82,7 +82,7 @@ nav button {
 header {
     width: 100%;
     background: #52796F;
-    color: #2A2315;
+    color: #c5ab62;
 }
 
 /* ARTICLE */
@@ -146,14 +146,19 @@ footer ul li {
     list-style: none;
 }
 
+footer h6 a {
+    color: #fff;
+    font-size: 22px;
+}
+
 footer a {
     text-decoration: none;
-    color: #2A2315;
+    color: #c5ab62;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: #2A2315;
+    color: #c5ab62;
 }
 
 footer a .fa-cocktail {
@@ -164,6 +169,7 @@ footer a .fa-cocktail {
 footer small {
     font-size: 11px;
     line-height: 2px;
+    color: #c5ab62;
 }
 
 /* RECETTES */
