@@ -83,10 +83,10 @@
 <section id="actions">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-5">
           <div class="d-flex justify-content-space-between align-items-center">
-            <h5 class="card-title">Ajouter un article</h5>
-            <a href="#" data-toggle="modal" data-target="#addRecipeModal"><i class="fas fa-plus"></i></a>
+             <a href="#" data-toggle="modal" data-target="#addRecipeModal"><h5 class="card-title">Ajouter une recette<i class="fas fa-plus"></i></h5></a>
+           
           </div>
         </div>
       </div>
@@ -96,67 +96,74 @@
 
 
 <!-- tableau des articles -->
+<section id="recipe">
+  <div class="container d-flex justify-content-center align-items-center">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card w-100">
+                   <div class="card-header">
+                       <h4>Latest Posts</h4>
+                   </div>
+                   <table class="table table-striped">
+                       <thead class="thead-dark">
+                           <tr>
+                               <th>#</th>
+                               <th>Titre</th>
+                               <th>Date</th>
+                               <th><button class="btn btn-full btn-success">Publier</button></th>
+                               <th><button class="btn btn-full btn-warning">Modifier</button></th>
+                               <th><button class="btn btn-full btn-danger">Supprimer</button></th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr>
+                               <td>1</td>
+                               <td>Bellini</td>
+                               <td>May 10 2018</td>
+                               <td><button class="btn btn-full btn-success">Publier</button></td>
+                               <td><button class="btn btn-full btn-warning">Modifier</button></td>
+                               <td><button class="btn btn-full btn-danger">Supprimer</button></td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td>Cosmopolitan</td>
+                              <td>May 11 2018</td>
+                              <td><button class="btn btn-full btn-success">Publier</button></td>
+                              <td><button class="btn btn-full btn-warning">Modifier</button></td>
+                              <td><button class="btn btn-full btn-danger">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                              <td>3</td>
+                              <td>Daïquiri</td>
+                              <td>May 13 2018</td>
+                              <td><button class="btn btn-full btn-success">Publier</button></td>
+                              <td><button class="btn btn-full btn-warning">Modifier</button></td>
+                              <td><button class="btn btn-full btn-danger">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                              <td>4</td>
+                              <td>Negroni</td>
+                              <td>May 15 2018</td>
+                              <td><button class="btn btn-full btn-success">Publier</button></td>
+                              <td><button class="btn btn-full btn-warning">Modifier</button></td>
+                              <td><button class="btn btn-full btn-danger">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                              <td>5</td>
+                              <td>Blue Lagoon</td>
+                              <td>May 17 2018</td>
+                              <td><button class="btn btn-full btn-success">Publier</button></td>
+                              <td><button class="btn btn-full btn-warning">Modifier</button></td>
+                              <td><button class="btn btn-full btn-danger">Supprimer</button></td>
+                          </tr>
+                       </tbody>
+                   </table>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
-<section id="articles">
-    <div class="container d-flex justify-content-center align-items-center">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card w-100">
-                     <div class="card-header">
-                         <h4>Latest Posts</h4>
-                     </div>
-                     <table class="table table-striped">
-                         <thead class="thead-dark">
-                             <tr>
-                                 <th>#</th>
-                                 <th>Titre</th>
-                                 <th>Date</th>
-                                 <th><button class="btn btn-full btn-success">Publier</button></th>
-                                 <th><button class="btn btn-full btn-danger">Supprimer</button></th>
-                             </tr>
-                         </thead>
-                         <tbody>
-                             <tr>
-                                 <td>1</td>
-                                 <td>Bellini</td>
-                                 <td>May 10 2018</td>
-                                 <td><input type="checkbox" checked></td>
-                                 <td><input type="checkbox"></td>
-                             </tr>
-                             <tr>
-                                <td>2</td>
-                                <td>Cosmopolitan</td>
-                                <td>May 11 2018</td>
-                                <td><input type="checkbox" checked></td>
-                                <td><input type="checkbox"></td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Daïquiri</td>
-                                <td>May 13 2018</td>
-                                <td><input type="checkbox" checked></td>
-                                <td><input type="checkbox"></td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Negroni</td>
-                                <td>May 15 2018</td>
-                                <td><input type="checkbox" checked></td>
-                                <td><input type="checkbox"></td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Blue Lagoon</td>
-                                <td>May 17 2018</td>
-                                <td><input type="checkbox" checked></td>
-                                <td><input type="checkbox"></td>
-                            </tr>
-                         </tbody>
-                     </table>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- modals -->
 
    <!-- add recipe modal -->
