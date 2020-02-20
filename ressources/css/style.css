@@ -108,11 +108,13 @@ header {
 
 /* RECETTES */
 
+
 .card {
     width: 80%;
     max-height: 600px;
     margin-bottom: 40px;
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.466);
+    overflow: hidden;
 }
 
 .card img {
@@ -172,6 +174,15 @@ footer small {
     color: #c5ab62;
 }
 
+footer button {
+    box-shadow: 3px 3px 10px black;
+    transition: all 0.5s linear;
+}
+
+footer button:hover {
+    box-shadow: 0px 0px 0px black;
+}
+
 /* RECETTES */
 
 .card .var {
@@ -182,6 +193,9 @@ footer small {
     font-size: 14px;
 }
 
+.recette .card {
+    overflow: hidden;
+}
 /* BARMEN */
 
 .card-group .card img {
@@ -238,6 +252,10 @@ footer small {
 
 .dash ul i:hover {
     transform: rotate(180deg);
+}
+
+.dash h1 {
+    color: #2A2315;
 }
 
 #actions {
